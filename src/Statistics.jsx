@@ -3,12 +3,12 @@ import StatisticLine from './StatisticLine'
 
 const Statistics = ({ good, neutral, bad, total, average, positivePercentage }) => {
   const statistics = [
-	{ text: 'Good', value: good },
-	{ text: 'Neutral', value: neutral },
-	{ text: 'Bad', value: bad },
-	{ text: 'Total', value: total },
-	{ text: 'Average', value: average.toFixed(2) },
-	{ text: 'Positive', value: `${positivePercentage.toFixed(2)}%` },
+	{ text: 'Hyvä', value: good },
+	{ text: 'Perus', value: neutral },
+	{ text: 'Paha', value: bad },
+	{ text: 'Yhteensä', value: total },
+	{ text: 'Keskiarvo', value: average.toFixed(2) },
+	{ text: 'Positiivinen', value: `${positivePercentage.toFixed(2)}%` },
   ]
 
   return (

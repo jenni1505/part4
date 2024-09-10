@@ -14,10 +14,10 @@ const App = () => {
 
   return (
     <div>
-      <h1>Give Feedback</h1>
-      <Button onClick={() => setGood(good + 1)} text="Hyvää" />
+      <h1>Anna Palaute</h1>
+      <Button onClick={() => setGood(good + 1)} text="Erinomainen" />
       <Button onClick={() => setNeutral(neutral + 1)} text="Perus" />
-      <Button onClick={() => setBad(bad + 1)} text="Huono" />
+      <Button onClick={() => setBad(bad + 1)} text="Pahaa" />
       {total > 0 ? (
         <Statistics 
           good={good} 
