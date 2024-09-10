@@ -13,7 +13,7 @@ const Statistics = ({ good, neutral, bad, total, average, positivePercentage }) 
 
   return (
 	<div>
-	  <h2>Statistics</h2>
+	  <h2>Tilastot</h2>
 	  {statistics.map(stat => (
 		<StatisticLine key={stat.text} text={stat.text} value={stat.value} />
 	  ))}
